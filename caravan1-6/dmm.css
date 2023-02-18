@@ -1,0 +1,27 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 200px; /* 高さ300px */
+  background-image: url(img/mv.jpg);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景色画像を中央に配置 */
+}
+
+.main-visual1 {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box1.jpg)
+  background-size: cover;
+  background-position: center;
+}
